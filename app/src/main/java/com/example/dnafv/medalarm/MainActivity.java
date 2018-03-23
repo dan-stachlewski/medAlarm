@@ -29,5 +29,9 @@ public class MainActivity extends AppCompatActivity {
             i.putExtra("Username",str);
             startActivity(i);
         }
+        if(v.getId() == R.id.signUpBtn){
+            Intent i = new Intent (MainActivity.this, SignUp.class);
+            startActivity(i);
+        }
     }
 }

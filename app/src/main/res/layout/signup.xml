@@ -128,7 +128,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="280dp"
         android:layout_marginTop="384dp"
-        android:layout_marginLeft="280dp"
+        android:onClick="onSignUpClick"
         android:text="Sign Up"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
